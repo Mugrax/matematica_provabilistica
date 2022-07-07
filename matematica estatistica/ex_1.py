@@ -18,7 +18,7 @@ import numpy as np
 
 # a)o domínio é (t)
 
-# b)
+# b)-----------------------------------------
 
 
 def f(t):
@@ -32,6 +32,7 @@ plt.plot(t,x,color='green')
     
 plt.show()
 
+# -------------------------------------------
 # c) Crescente
 
 # d) a imagen é X
