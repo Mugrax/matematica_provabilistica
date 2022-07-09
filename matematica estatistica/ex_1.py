@@ -16,7 +16,7 @@ import numpy as np
 
 
 
-# a)o domínio é (t)
+# a)D={D E N} / representado na equaçao como 0<t<10 
 
 # b)-----------------------------------------
 
@@ -24,17 +24,19 @@ import numpy as np
 def f(t):
     return 4/2+3*2**(t)
 
-t=np.arange(1,10)
+t=np.arange(0,10)
 
 x = f(t)
 
 plt.plot(t,x,color='green')
-    
+plt.xlabel('Tempo/anos')
+plt.ylabel('Crescimento')
+plt.grid(True)
 plt.show()
 
 # -------------------------------------------
 # c) Crescente
 
-# d) a imagen é X
+# d)I={I E N| 5<I<1538}
 
-print(x)
+print(f'D={t}\n\nI={x}')
